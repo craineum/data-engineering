@@ -16,4 +16,12 @@ describe SubsidiarySale do
     end
   end
 
+  describe "#total" do
+    subject { SubsidiarySale.create(item_price: "1", purchase_count: "5.0") }
+
+    it "calculates based on item_price and purchase_count" do
+      expect(subject.total).to eq 5
+    end
+  end
+
 end

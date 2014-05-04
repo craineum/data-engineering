@@ -30,6 +30,8 @@ Tasks:
 1. Return success/failure message
 
 ## Story: Add total gross revenue to output
+1. Refactor process_upload as too much functionality is happening inside of it.
+1. See flaw if they upload the same data more than once.  Would be another story to fix that functionality.
 Tasks:
 1. Add total return to model
 1. Display total in view
