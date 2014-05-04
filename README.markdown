@@ -19,6 +19,7 @@ Tasks:
 
 ## Story: Process & store
 1. Test with DB until things become too slow, then will start mocking (so not in this small app)
+1. I put in values that I expect in my test, not derived from input (having the test check for eq 4 instead of looking at the file)
 Tasks:
 1. Create migration & model
 1. Read file
