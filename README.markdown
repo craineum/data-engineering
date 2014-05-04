@@ -6,6 +6,7 @@ Will breakdown feature into smaller stories outlined below
 
 ## Story: Receive subsidiary sales file
 1. Feature testing with capybara, if interfacing with QA or Product Owner/Manager would possibly use Cucumber.
+1. I typically don't test controllers as there should be no business logic there, features test the combining aspects of them.
 Tasks:
 1. Create app
 1. Create route, controller, views
