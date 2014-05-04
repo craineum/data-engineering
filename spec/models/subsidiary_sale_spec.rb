@@ -11,7 +11,7 @@ describe SubsidiarySale do
 
     it "creates records based on file data" do
       expect(SubsidiarySale.count).to eq 0
-      SubsidiarySale.process_upload file
+      expect(SubsidiarySale.process_upload(file)).to eq 95
       expect(SubsidiarySale.count).to eq 4
     end
   end
