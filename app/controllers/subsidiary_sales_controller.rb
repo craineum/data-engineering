@@ -5,7 +5,7 @@ class SubsidiarySalesController < ApplicationController
 
   def create
     begin
-      SubsidiarySale.process_upload params["uploadSubsidiary"]
+      @total_gross = SubsidiarySale.process_upload params["uploadSubsidiary"]
       @message = "Success"
     rescue
       @message = "Fail"
