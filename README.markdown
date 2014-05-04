@@ -35,3 +35,15 @@ Tasks:
 Tasks:
 1. Add total return to model
 1. Display total in view
+
+# Recap
+This took me about 2 hours to do.  Here are some of the stories I thought of along the way that could improve the feature.
+
+## Story: Verify data file before insert
+## Story: Make sure data is not being duplicated
+## Story: Background task to process data with push feedback for larger data sets
+
+Thank you for taking the time to review my efforts!
+
+Kevin
+:)
