@@ -8,6 +8,7 @@ describe "Upload a file" do
     click_button "Upload"
     expect(page).to have_content "Success"
     expect(SubsidiarySale.count).to be 4
+    expect(page).to have_content "95"
   end
 
 end

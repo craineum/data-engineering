@@ -28,3 +28,8 @@ Tasks:
 1. Store in DB
 1. Link controller to model
 1. Return success/failure message
+
+## Story: Add total gross revenue to output
+Tasks:
+1. Add total return to model
+1. Display total in view
