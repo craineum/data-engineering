@@ -1,0 +1,4 @@
+<%= form_tag({method: :post}, multipart: true) do %>
+  <%= file_field_tag 'uploadSubsidiary' %>
+  <%= submit_tag 'Upload' %>
+<% end %>
