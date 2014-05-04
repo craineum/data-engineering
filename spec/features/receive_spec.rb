@@ -7,6 +7,7 @@ describe "Upload a file" do
     attach_file "uploadSubsidiary", "#{::Rails.root}/spec/fixtures/example_input.tab"
     click_button "Upload"
     expect(page).to have_content "Success"
+    expect(SubsidiarySale.count).to be 4
   end
 
 end
