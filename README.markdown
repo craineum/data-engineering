@@ -20,6 +20,7 @@ Tasks:
 ## Story: Process & store
 1. Test with DB until things become too slow, then will start mocking (so not in this small app)
 1. I put in values that I expect in my test, not derived from input (having the test check for eq 4 instead of looking at the file)
+1. Model method process_upload is at the limit of what I would like to see for functionality.  Would refactor if more functionality needed.
 Tasks:
 1. Create migration & model
 1. Read file
